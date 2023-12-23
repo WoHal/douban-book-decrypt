@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bplist-parser": "^0.3.2",
+    "cbor-js": "^0.1.0",
+    "crypto-js": "^4.2.0",
+    "flatbuffers": "^23.5.26",
+    "protobufjs": "^7.2.5",
+    "xxhashjs": "^0.2.2"
+  }
+}
