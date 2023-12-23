@@ -57,10 +57,10 @@ function generateJSON(listData) {
     return parseJSONNode(listData[rootUID])
 }
 
-function dec(cipherText) {
+function decrypt(cipherText) {
     var keyLen = 16
     var seed = 41405
-    var buf = Base64Binary.decode(cipherText)
+    var buf = Base64Binary.ryptode(cipherText)
     var keyStart = Math.floor((buf.length - 2 * keyLen) / 3)
     var encryptedKeyBuf = buf.subarray(keyStart, keyStart + keyLen)
     var key = XXHash.h64(Buffer.from(encryptedKeyBuf), seed).toString(16)
@@ -70,4 +70,4 @@ function dec(cipherText) {
     return generateJSON(list)
 }
 
-module.exports = dec
+module.exports = decrypt
