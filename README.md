@@ -12,12 +12,17 @@
 > https://github.com/opensource-apple/CF/blob/3cc41a76b1491f50813e28a4ec09954ffa359e6f/ForFoundationOnly.h#L390
 > 
 > Apple实现的 bplist 中的类型如下:
+> 
 > kCFBinaryPlistMarkerData = 0x4,
+> 
 > kCFBinaryPlistMarkerASCIIString = 0x5,
+> 
 > kCFBinaryPlistMarkerUnicode16String = 0x6,
 >
 > 豆瓣实现的 bplist 类型如下:
 > 
 > data = 0x6
+> 
 > ASCII = 0x4
+> 
 > Unicode16 = 0x5
