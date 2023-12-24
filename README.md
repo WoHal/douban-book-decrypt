@@ -26,3 +26,14 @@
 > ASCII = 0x4
 > 
 > Unicode16 = 0x5
+>
+
+### xxhash
+获取 rc4 解密所用到的 key
+
+### rc4
+解密数据
+
+### bplist
+解码二进制数据
+
